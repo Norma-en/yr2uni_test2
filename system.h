@@ -24,8 +24,8 @@ public:
 	void step();
 	void save(const std::string &filename);
 	bool overlap(int i);
-	void enforceBoundaries(Disk & dist);
+	void enforceBoundaries(Disk & disk);
 	double uniform(double min, double max);
 };
 
-#endif // !SYSTEM
+#endif

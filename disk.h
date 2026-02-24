@@ -14,4 +14,4 @@ public:
 	double distance(Disk& d);
 };
 
-#endif // !DISK_H
+#endif

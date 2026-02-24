@@ -53,10 +53,10 @@ void System::enforceBoundaries(Disk & disk) {
         if (disk.y > boxSize) disk.y = boxSize;
     }
 
-// HINT: PROVIDE A DEFINITION FOR A MEMBER FUNCTION OF THE SYSTEM CLASS CALLED uniform
+// Uniform function
 double System::uniform (double min, double max){
-
-
+	std::uniform_real_distribution<double> dist(min, max);
+	return dist(gen);
 }
 
 
