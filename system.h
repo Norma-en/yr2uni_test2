@@ -12,10 +12,10 @@ class System {
 public:
 	// Member variables
 	std::vector<Disk> disks;
-	double bosSize;
+	double boxSize;
 	double displacement;
 	std::mt19937 gen;
-	std::uniform_real_distribution<doubles> dist;
+	std::uniform_real_distribution<double> dist;
 
 	// System constructor
 	System(int N, double displacement, double radius, double box_size, int seed);
