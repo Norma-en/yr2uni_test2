@@ -2,6 +2,7 @@
 *.txt
 confs/
 *.exe
+*.out
 *.html
 *.pdf
 *.o
