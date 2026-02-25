@@ -9,6 +9,7 @@
  * This function initializes the program and manages execution.
  */
 int main() {
+    system("mkdir -p confs"); // Makes the confs folder for the python animation if it is not there already
     // number of disks
     int N = 20;
     double maxDisplacement  = 0.6;
